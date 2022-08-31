@@ -1,0 +1,272 @@
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    
+
+}
+*::selection{
+    background:var(--green);
+    color: #fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 2rem 9%;
+}
+
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("../images/785054-ecommerce-istock-020119-1.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("../images/785054-ecommerce-istock-020119-1.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #000000;
+}
+.h1_update{
+    font-size: 40px;
+    margin-left: 35%;
+    padding-top: 30px;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+.header-2{
+    
+    background: rgba(0, 0, 0, 0.842);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, 1);
+    position: relative;
+    background-size: 8px ;
+}
+
+.head
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.header-2 ul
+{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.header-2 ul li
+{
+ 
+    margin: 10px;
+    padding: 18px;
+   
+    
+
+}
+.header-2 ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.header-2 ul li:hover
+{
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 3px;
+    transition: .5s;
+}
+.sub-menu
+{
+    display: none;
+}
+.header-2 ul li:hover .sub-menu
+{
+    display: block;
+    position:relative;
+    background: #000000cb;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.header-2 ul li:hover .sub-menu ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.header-2 ul li:hover .sub-menu ul li
+{
+    width: 190px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-2 ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none;
+}
+.header-2 ul li:hover .sub-menu ul li a:hover
+{
+    color:rgb(3, 83, 7);
+    padding-left: 10px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-top:40px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+    text-transform: none;
+}
+.footer-col ul li a:hover{
+    color: rgb(253, 85, 7);
+    padding-left: 10px;
+}
+#fot
+{
+    color: rgb(0, 82, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 90px 0;
+}
+.container-1{
+    height: 250px;
+    max-width: 1500px;
+    background-color: rgba(0, 0, 0, 0.973);
+    margin:auto;
+}
+ul{
+    list-style: none;
+
+}

@@ -1,0 +1,195 @@
+
+
+:root{
+    --green:#000000;
+    --black:#2c2c54;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    
+
+}
+*::selection{
+    background:var(--green);
+    color: #fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 2rem 9%;
+}
+
+
+
+
+
+.header-2{
+    
+    background: rgba(0, 0, 0, 0.684);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, 1);
+    position: relative;
+    background-size: 8px ;
+}
+
+.head
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.header-2 ul
+{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.header-2 ul li
+{
+ 
+    margin: 10px;
+    padding: 18px;
+   
+    
+
+}
+.header-2 ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.header-2 ul li:hover
+{
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 3px;
+    transition: .5s;
+    
+}
+.sub-menu
+{
+    display: none;
+}
+.header-2 ul li:hover .sub-menu
+{
+    display: block;
+    position:relative;
+    background: #000000cb;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.header-2 ul li:hover .sub-menu ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.header-2 ul li:hover .sub-menu ul li
+{
+    width: 190px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-2 ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none;
+}
+.header-2 ul li:hover .sub-menu ul li a:hover
+{
+    color:rgb(3, 83, 7);
+    padding-left: 10px;
+}
+
+
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-top:40px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+    text-transform: none;
+}
+.footer-col ul li a:hover{
+    color: rgb(253, 85, 7);
+    padding-left: 10px;
+}
+#fot
+{
+    color: rgb(0, 82, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 90px 0;
+}
+.container-1{
+    height: 250px;
+    max-width: 1500px;
+    background-color: rgba(0, 0, 0, 0.973);
+    margin:auto;
+}
+ul{
+    list-style: none;
+
+}
+.container{
+    margin-top: 2%;
+}
+.inner{
+    overflow: hidden;
+
+}
+.inner img{
+    transition: all 1.5s ease;
+    height: 310px;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
